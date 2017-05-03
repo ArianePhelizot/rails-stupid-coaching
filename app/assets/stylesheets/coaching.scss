@@ -1,3 +1,29 @@
 // Place all the styles related to the coaching controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.wrapper {
+  background-image: linear-gradient(135deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%),
+              url('https://unsplash.it/1300/600?random');
+  background-size: cover;
+  padding: 50px;
+}
+
+.container {
+  width: 600px;
+  padding: 150 px;
+  margin: 100px auto;
+  border-radius: 3px;
+}
+.who {
+  font-size: 15px;
+}
+
+body {
+  font-size: 25px;
+  color: white;
+}
+
+a {
+  font-size: 15px;
+  color: white;
+}

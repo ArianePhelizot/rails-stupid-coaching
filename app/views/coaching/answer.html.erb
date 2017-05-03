@@ -1,3 +1,18 @@
-<h1>Coaching#answer</h1>
-<p>Find me in app/views/coaching/answer.html.erb</p>
-<%= @question %>
+
+<div class = "wrapper">
+
+  <div class = "container">
+
+    <div class= "text-center">
+      <%= @question %>
+      <p class = "who">-You-</p>
+      <p>-----------------------------------------------</p>
+      <%= @answer %>
+      <p class = "who">-The coach-</p>
+
+      <%= link_to "Posez une nouvelle question", "question" %>
+    </div>
+
+  </div>
+
+</div>
